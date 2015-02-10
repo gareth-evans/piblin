@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Piblin</id>
+    <version>$version$</version>
+    <authors>Gareth Evans</authors>
+    <owners>Gareth Evans</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A framework for composing applications from chainable, reusable components</description>
+    <copyright>Copyright 2015</copyright>
+  </metadata>
+</package>

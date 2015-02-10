@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7603ECFE-FCC2-49FE-9DC0-7A02EB38AE28}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{FD4BF497-B14E-46CB-9101-83B70D3DCA2F}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BE07AFDA-3FF5-44AE-A234-5CF9A9A43213}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piblin", "app\Piblin\Piblin.csproj", "{543B4C45-8C2C-4C65-9F21-4ED9B17D8DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piblin.Test", "test\Piblin.Tests\Piblin.Test.csproj", "{E668815B-34BF-4407-B61C-6A5FBFAF3086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BC1E472-2EDB-4974-9F7C-5C8B0F90CD2A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543B4C45-8C2C-4C65-9F21-4ED9B17D8DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543B4C45-8C2C-4C65-9F21-4ED9B17D8DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543B4C45-8C2C-4C65-9F21-4ED9B17D8DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543B4C45-8C2C-4C65-9F21-4ED9B17D8DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E668815B-34BF-4407-B61C-6A5FBFAF3086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E668815B-34BF-4407-B61C-6A5FBFAF3086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E668815B-34BF-4407-B61C-6A5FBFAF3086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E668815B-34BF-4407-B61C-6A5FBFAF3086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
