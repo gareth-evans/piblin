@@ -4,7 +4,7 @@
     {
         private static Unit _instance;
 
-        public static Unit Instance { get { return _instance ?? (_instance = new Unit()); } }
+        public static Unit Instance => _instance ?? (_instance = new Unit());
 
         private Unit()
         {

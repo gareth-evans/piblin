@@ -92,9 +92,9 @@ Target "Publish" (fun _ ->
 )
 
 "Clean"
-    ==>"BuildTest"
-        ==> "Test"
+   // ==>"BuildTest"
+   //     ==> "Test"
             ==> "Build"
-                ==> "Publish"
+               ==> "Publish"
 
 Run "Publish" 

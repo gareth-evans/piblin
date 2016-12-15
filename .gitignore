@@ -197,3 +197,10 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Visual Studio 2015 workspace config
+.vs
+
+.fake/
+output/
+tools/
