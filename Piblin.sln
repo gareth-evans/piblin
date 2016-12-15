@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{7603ECFE-FCC2-49FE-9DC0-7A02EB38AE28}"
-	ProjectSection(SolutionItems) = preProject
-		SolutionInfo.cs = SolutionInfo.cs
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{FD4BF497-B14E-46CB-9101-83B70D3DCA2F}"
 	ProjectSection(SolutionItems) = preProject
 		build.bat = build.bat
@@ -24,6 +19,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BC1E472-2EDB-4974-9F7C-5C8B0F90CD2A}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		SolutionInfo.cs = SolutionInfo.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piblin", "app\Piblin\Piblin.csproj", "{8E2FD246-3E26-4B16-AFE9-C089DF68BC7B}"
